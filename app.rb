@@ -10,5 +10,7 @@ class App < Sinatra::Base
   post "/piglatinize" do 
     
     
+    
+    erb :pig_latinizer
   end
 end
