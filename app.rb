@@ -12,6 +12,7 @@ class App < Sinatra::Base
     input = params[:user_phrase]
     word = Piglatinizer.new
     
+    
     erb :pig_latinizer
   end
 end
