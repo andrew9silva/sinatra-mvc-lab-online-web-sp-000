@@ -12,7 +12,7 @@ class App < Sinatra::Base
     phrase = Piglatinizer.new
     @pig_latinize = piglatinize(input)
     
-    
+    erb :pig_latinizer
    
   end
 end
