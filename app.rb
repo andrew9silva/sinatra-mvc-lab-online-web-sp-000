@@ -9,7 +9,7 @@ class App < Sinatra::Base
   
   post "/piglatinize" do 
     input = params[:user_phrase]
-    = Pig
+    phrase = Piglatinizer.new
    
   end
 end
