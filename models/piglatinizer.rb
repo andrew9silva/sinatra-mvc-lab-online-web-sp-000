@@ -7,10 +7,6 @@ class PigLatinizer
     
     if first_letter_array.include?(first_letter)
       "#{word}way"
-<<<<<<< HEAD
-=======
-      binding.pry
->>>>>>> e35cf54e4aa1f2c4f2444e069362b0404b1f67a1
     else
       consonants = []
       if !first_letter_array.include?(word[0]) && !first_letter_array.include?(word[1]) && !first_letter_array.include?(word[2]) 
@@ -27,7 +23,6 @@ class PigLatinizer
         word = word.slice!(1..-1) + word[0] + "ay"
       end
     end
-<<<<<<< HEAD
   end 
   
   def piglatinize_sentence(sentence)
@@ -42,9 +37,6 @@ class PigLatinizer
     else
       piglatinize_word(input)
     end
-=======
-    #word
->>>>>>> e35cf54e4aa1f2c4f2444e069362b0404b1f67a1
   end 
 
 end
