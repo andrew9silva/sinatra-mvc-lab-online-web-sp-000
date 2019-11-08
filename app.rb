@@ -11,7 +11,7 @@ class App < Sinatra::Base
     
     input = params[:user_phrase]
     word = Piglatinizer.new
-    
+    word.piglatinze(input)
     
     erb :pig_latinizer
   end
